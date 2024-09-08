@@ -2,3 +2,94 @@ body{
     font-family: "Inter", sans-serif; 
 }
 
+#nav-container{
+    display: flex;
+    background-color: rgb(165, 162, 162);
+    align-items: center;
+}
+
+#nav-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav-items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#home-article{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#home-article article{
+    width: 50%;
+}
+
+#home-article figure{
+    width: 50%;
+}
+
+#home-article figure img{
+    width: 100%;
+}
+
+.bg-red{
+    background-color: rgb(206, 46, 46);
+}
+.bg-blue{
+    background-color: rgb(46, 115, 206);
+}
+
+.pad-2{
+    padding: 10px;
+}
+
+.text-white{
+    color: white;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.border-radius{
+    border-radius: 10px;
+    border: none;
+}
+
+.shadow{
+    box-shadow: 2px 2px 4px grey;
+}
+
+#our-product{
+    margin-top: 20px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 2px 2px 5px grey;
+    overflow: hidden;
+}
+
+.card .card-img{
+    width: 100%;
+}
+.card .card-img img {
+    width: 100%;
+}
+
+.card section{
+    padding: 10px;
+}
