@@ -10,6 +10,20 @@ function getProduct(){
 
         })
         .then(data => {
-            console.log('data: ', data)
+            data = array.forEach(element => {'beforeend',
+                `<div class="product-container">
+                    <div class="card border-radius">
+                        <div class="card-img">
+                            <img src="$entity(title)" alt="blackarch">
+                        </div>
+                        <section>
+                            <header>
+                                <p class="fw-bold">Black Archlinux</p>
+                            </header>
+                                <p>Lopem Ipsum Dolor</p>
+                                <button class="bg-blue border-radius shadow pad-2">Detail Product</button>
+                        </section>
+                    </div>`
+            });
         })
 }
