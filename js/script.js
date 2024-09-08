@@ -7,10 +7,11 @@ function getProduct(){
     fetch('https://fakestoreapi.com/products')
         .then(respone => {
             console.log(respone.json())
-
         })
         .then(data => {
-            data = array.forEach(element => {'beforeend',
+            data.forEach(element => {
+                const productList = document.querySelector('.product-container');
+                productList.insertAdjacentHTML('beforeend',
                 `<div class="product-container">
                     <div class="card border-radius">
                         <div class="card-img">
@@ -24,6 +25,7 @@ function getProduct(){
                                 <button class="bg-blue border-radius shadow pad-2">Detail Product</button>
                         </section>
                     </div>`
+                );
             });
         })
 }
