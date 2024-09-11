@@ -4,24 +4,24 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function getParameter(name){
-    var urlParams = new URLSearchParams(window.location.search)
-    return urlParams.get(name)
+    var urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
 }
 
 function renderProduct(id){
-    const xmlHttpReq = XMLHttpRequest();
-    xmlHttpReq.open('GET', 'https://dummyjson.com/products/' + id);
-    xmlHttpReq.onload = () => {
-        if(xmlHttpReq.status === 200){
-            var result = JSON.parse(xmlHttpReq.responseText);
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://dummyjson.com/products/'+id);
+    xhr.onload = () => {
+        if(xhr.status === 200){
+            var result = JSON.parse(xhr.responseText);
 
-            document.getElementById('title').innerHTML = result.title;
-            document.getElementById('description').innerHTML = result.description;
-            document.getElementById('thumbnail').src = result.thumbnail;
+            document.getElementById('judul').innerHTML = result.title;
+            document.getElementById('deskripsi').innerHTML = result.description;
+            document.getElementById('gambar').src = result.thumbnail;
             
         }else{
-            console.error('Request Failed. Returned status of' + xmlHttpReq.status);
+            console.error('Request Failed. Returned status of' + xhr.status);
         }
     };
-    xmlHttpReq.send();
+    xhr.send();
 }

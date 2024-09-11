@@ -9,8 +9,8 @@ function getProduct(){
         .then(data => {
             var container = document.querySelector('#product-container');
             data.products.forEach(product => {
-                // product.description = shortText(product.description, 70);
-                // product.title = shortText(product.title, 20);
+                product.description = shortText(product.description, 70);
+                product.title = shortText(product.title, 20);
                 container.insertAdjacentHTML('beforeend',
                     `<div class="card border-radius">
                         <div class="card-img">
@@ -21,7 +21,9 @@ function getProduct(){
                                 <p class="fw-bold">${product.title}</p>
                             </header>
                                 <p>${product.description}</p>
-                                <button class="bg-blue border-radius shadow pad-2">Detail Product</button>
+                                <a href="detail/index.html?id=${product.id}">
+                                    <button class="bg-blue border-radius shadow pad-2">Detail Product</button>
+                                </a>
                         </section>
                     </div>`
                 );
@@ -29,3 +31,11 @@ function getProduct(){
         })
 }
 
+
+function shortText(text, maxLength) {
+    if (text.length > maxLength) {
+        return text.substring(0, maxLength) + ' ...';
+    } else {
+        return text;
+    }
+}

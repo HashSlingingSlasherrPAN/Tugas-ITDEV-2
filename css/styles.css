@@ -113,3 +113,14 @@ body{
 .card section{
     padding: 10px;
 }
+
+.detail-img figure {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-img figure img {
+    width: fit-content;
+    height: 100%;
+}
