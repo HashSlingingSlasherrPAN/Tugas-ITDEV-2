@@ -14,7 +14,7 @@ function getProduct(){
                 container.insertAdjacentHTML('beforeend',
                     `<div class="card border-radius">
                         <div class="card-img">
-                            <img src="${product.image}" alt="blackarch">
+                            <img src="${product.thumbnail}" alt="blackarch">
                         </div>
                         <section>
                             <header>
@@ -28,3 +28,4 @@ function getProduct(){
             });
         })
 }
+
