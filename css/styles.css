@@ -51,6 +51,12 @@ body{
 .bg-blue{
     background-color: rgb(46, 115, 206);
 }
+.bg-green{
+    background-color: limegreen;
+}
+.bg-grey{
+    background-color: grey;
+}
 
 /* text styling */
 .pad-2{
