@@ -134,3 +134,17 @@ body{
     width: fit-content;
     height: 100%;
 }
+
+#search-bar input{
+    width: 500px;
+    height: 30px;
+    margin-left: 50%;
+    padding: 10px;
+    font-family: "Inter", sans-serif; 
+}
+
+#submit-btn {
+    margin-left: 260px;
+    height: 30px;
+    background-color: rgb(207, 207, 207);
+}
