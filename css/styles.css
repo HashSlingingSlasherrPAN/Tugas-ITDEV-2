@@ -1,5 +1,13 @@
 body{
     font-family: "Inter", sans-serif; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+html, body {
+    height: 100%; 
 }
 
 /* nav */
@@ -9,14 +17,13 @@ body{
     color: white;
     align-items: center;
     padding: 7px;
-    border-radius: 10px;
 }
 
 #nav-items{
     width: 100%;
     display: flex;
     justify-content: right;
-    gap: 30px;
+    gap: 20px;
     margin-right: 15px;
 }
 
@@ -67,8 +74,8 @@ body{
     padding: 10px;
 }
 
-.mt-110{
-    margin-top: 110px;
+.mt-30{
+    margin-top: 30px;
 }
 
 .ms-40{
@@ -157,4 +164,17 @@ body{
     margin-left: 260px;
     height: 30px;
     background-color: rgb(207, 207, 207);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Mendorong footer ke bawah */
+}
+
+.footer-content p {
+    margin: 0;
 }
