@@ -20,6 +20,10 @@ body{
     margin-right: 15px;
 }
 
+#nav-items a:hover {
+    color: grey;
+}
+
 #nav-items a {
     text-decoration: none;
     color: white;
