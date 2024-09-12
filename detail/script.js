@@ -17,6 +17,12 @@ function renderProduct(id){
 
             document.getElementById('judul').innerHTML = result.title;
             document.getElementById('deskripsi').innerHTML = result.description;
+            document.getElementById('harga').innerHTML = result.price;
+            document.getElementById('stok').innerHTML = result.stock;
+            document.getElementById('berat').innerHTML = result.weight;
+            document.getElementById('merk').innerHTML = result.brand;
+            document.getElementById('kat').innerHTML = result.category;
+            document.getElementById('tag').innerHTML = result.tags;
             document.getElementById('gambar').src = result.thumbnail;
             
         }else{
