@@ -55,10 +55,20 @@ body{
 .bg-blue{
     background-color: rgb(46, 115, 206);
 }
+.bg-green{
+    background-color: limegreen;
+}
+.bg-grey{
+    background-color: grey;
+}
 
 /* text styling */
 .pad-2{
     padding: 10px;
+}
+
+.mt-110{
+    margin-top: 110px;
 }
 
 .ms-40{
@@ -80,6 +90,11 @@ body{
 
 .shadow{
     box-shadow: 2px 2px 4px grey;
+}
+
+.decoration-none{
+    text-decoration: none;
+    color: black;
 }
 
 /* end styling */
@@ -119,9 +134,10 @@ body{
 }
 
 .detail-img figure {
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
+    scale: 0.7;
 }
 
 .detail-img figure img {
