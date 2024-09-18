@@ -14,13 +14,13 @@ class App {
           
         }
         // controller
-        if (file_exists("../app/controllers/" . $url[0]. "Controller" . ".php")){
+        if (file_exists("app/controllers/" . $url[0]. "Controller" . ".php")){
             $url[0] = $url[0] . "Controller"; // penambahan
             $this->controller = $url[0];
             unset($url[0]);
         }
 
-        require_once "../app/controllers/" . $this->controller . ".php";
+        require_once "app/controllers/" . $this->controller . ".php";
         $this->controller = new $this->controller;
 
 

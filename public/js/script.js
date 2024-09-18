@@ -22,7 +22,7 @@ function getProduct(){
                             </header>
                                 <p>Rp. ${product.price}</p>
                                 <p>Stock: ${product.availabilityStatus}</p>
-                                <a href="detail/index.html?id=${product.id}">
+                                <a href="<?=BASEURL?>detail/index?id=${product.id}">
                                     <button class="bg-blue border-radius shadow pad-2">Detail Produk</button>
                                 </a>
                         </section>

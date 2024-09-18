@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="<?=BASEURL?>/public/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -13,14 +13,14 @@
 <body>
     <header>
         <div id="nav-container">
-            <img src="../img/logo.png" alt="logo" width="50px">
+            <img src="<?=BASEURL?>public/img/logo.png" alt="logo" width="50px">
             <nav id="search-bar">
                 <input class="border-radius" type="search">
             </nav>
             <button id="submit-btn" class="border-radius"><i class="fa-solid fa-magnifying-glass"></i></button>
             <nav id="nav-items">
-                <a href="../index.html">Home</a>
-                <a href="../products.html">Products</a>
+                <a href=".<?=BASEURL?>home/index">Home</a>
+                <a href="<?=BASEURL?>products/index">Products</a>
             </nav>
         </div>
     </header>
@@ -51,6 +51,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="<?=BASEURL?>public/js/detail.js"></script>
 </body>
 </html>
