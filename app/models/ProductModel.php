@@ -2,9 +2,7 @@
 
 class ProductModel extends Model
 {
-    protected $table = 'products';
-    protected $primaryKey = 'product_id';
-}
+    protected $table = 'produk';
+    protected $primaryKey = 'id_produk';
 
-$productModel = new ProductModel();
-$products = $productModel->getAll();
+}

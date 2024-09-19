@@ -2,8 +2,6 @@
     require_once VIEWS . "partials/header.php";
     require_once VIEWS . "partials/navbar.php";
 ?>
-<body>
-
     <section id="home-article" class="detail-img">
         <article class="">
             <h1 id="judul">Ubuntu 15.10 Disk</h1>
@@ -28,5 +26,3 @@
         require_once VIEWS . "partials/footer.php";
     ?>
     <!-- <script src="<?=BASEURL?>public/js/detail.js"></script> -->
-</body>
-</html>

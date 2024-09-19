@@ -2,8 +2,7 @@
     require_once VIEWS . "partials/header.php";
     require_once VIEWS . "partials/navbar.php";
 ?>
-<body>
-    
+
     <section id="home-article">
         <article class="ms-40">
             <h1>Selamat Datang di Nano Store</h1>
@@ -30,5 +29,3 @@
     <?php
     require_once VIEWS . "partials/footer.php";
     ?>
-</body>
-</html>
