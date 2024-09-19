@@ -17,7 +17,7 @@
                     </header>
                         <p>Rp. <?= $p['harga']?></p>
                         <p>Stock: <?= $p['stok']?></p>
-                        <a href="<?=BASEURL?>detail/index" class="bg-blue border-radius shadow pad-2 decoration-none justify-center">Detail Produk</a>
+                        <a href="<?=BASEURL?>detail/index" class="btn-black border-radius shadow pad-2 decoration-none justify-center">Detail Produk</a>
                 </section>
             </div>
         </div>

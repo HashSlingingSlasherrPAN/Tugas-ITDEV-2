@@ -7,7 +7,7 @@
         <article class="ms-40 mt-60">
             <h1><?=$p['nama']?></h1>
             <p><?=$p['deskripsi']?></p>
-            <p>Rp. <?=$p['harga']?></p>
+            <h4>Rp. <?=$p['harga']?></h4>
             <ul>
                 <li>Stok: <?=$p['stok']?></li>
                 <li>Merk:: <?=$p['merk']?></li>

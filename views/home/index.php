@@ -19,7 +19,7 @@
                 Barang yang kami sediakan 100% ORI dan memiliki harga dibawah pasar. Tiap minggu terdapat promo besar-besaran
                 Jadilah member dan dapatkan banyak diskon dan voucher tiap harinya.
             </p>
-            <a href="<?= BASEURL ?>products/index" class="bg-red pad-2 fw-bold border-radius shadow decoration-none text-white">Pelajari lebih lanjut!</a>
+            <a href="<?= BASEURL ?>products/index" class="btn-red pad-2 fw-bold border-radius shadow decoration-none text-white">Pelajari lebih lanjut!</a>
         </article>
         <figure>
             <img src="<?=BASEURL?>/public/img/bg.png" alt="blackarch" class="border-radius me-40">

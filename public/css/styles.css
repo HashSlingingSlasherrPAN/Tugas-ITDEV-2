@@ -189,8 +189,25 @@ html, body {
 }
 
 /* button styling */
-.bg-blue {
-    background-color: #007BFF;
+.btn-red {
+    background-color: red;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-red:hover {
+    background-color: red;
+    color: #000;
+}
+
+.btn-black {
+    background-color: #000;
     color: white;
     display: block;
     text-align: center;
@@ -201,8 +218,9 @@ html, body {
     transition: background-color 0.3s;
 }
 
-.bg-blue:hover {
-    background-color: #0056b3;
+.btn-black:hover {
+    background-color: #000;
+    color: red;
 }
 
 /* product details */
@@ -238,7 +256,8 @@ html, body {
 #submit-btn {
     margin-left: 260px;
     height: 30px;
-    background-color: #ccc;
+    background-color: #201f1f;
+    color: #fff;
     border-radius: 5px;
     border: none;
     padding: 5px 15px;
