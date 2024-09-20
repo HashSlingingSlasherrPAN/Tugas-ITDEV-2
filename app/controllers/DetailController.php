@@ -5,13 +5,17 @@ class DetailController extends Controller {
 
     public function __construct()
     {
-        $this->productModel = new ProductModel();
+        $this->productModel = new ProductsModel();
     }
 
-    public function index()
+    public function index($id = null)
     {
-        $products = $this->productModel->getAll();
+        if ($id === null && isset($_GET['id'])) {
+            $id = $_GET['id'];
+        }
 
-        $this->view('detail/index', ['products' => $products]);
+        $product = $this->productModel->getUserById((int)$id);
+
+        $this->view('detail/index', ['product' => $product]);
     }
 }

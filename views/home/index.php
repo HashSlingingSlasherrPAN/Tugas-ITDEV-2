@@ -11,8 +11,7 @@
             </p>
             <p>
                 Nano Store telah berdiri sejak tahun 1995 dan telah mencetak banyak penghargaan dari seluruh dunia.
-                Kami menyediakan berbagai kebutuhan anda mulai dari fashion, alat rumah tangga, elektronik, hingga mainan
-                untuk balita anda. Sebagai toko yang baik, kami akan selalu melayani anda dengan senyuman 3S. 
+                Kami menyediakan berbagai kebutuhan elektronik anda terutama untuk laptop. Sebagai toko yang baik, kami akan selalu melayani anda dengan senyuman 3S. 
                 Toko kami tersebar di seluruh dunia yang memiliki cabang diberbagai kota dan negara.
             </p>
             <p>

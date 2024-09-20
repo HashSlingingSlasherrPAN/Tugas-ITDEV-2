@@ -15,7 +15,7 @@ class App {
         }
         // controller
         if (file_exists("app/controllers/" . $url[0]. "Controller" . ".php")){
-            $url[0] = $url[0] . "Controller"; // penambahan
+            $url[0] = $url[0] . "Controller";
             $this->controller = $url[0];
             unset($url[0]);
         }
@@ -36,17 +36,28 @@ class App {
             $this-> params = array_values($url);
           
         }
+        // jika ada bagian url lain maka anggap sebagai params
+        $this->params = $url ? array_values($url) : [];
         // jalankan controller & method, serta kirimkan params jika ada
         call_user_func_array([$this->controller, $this->method], $this->params);
         
     }
     // params
     public function parseURL(){
-        if (isset($_GET["url"])){
+        $url = '';
+        if (isset($_GET["url"])) {
             $url = rtrim($_GET['url'], '/');
             $url = filter_var($url, FILTER_SANITIZE_URL);
-            $url = explode('/', $url);
-            return $url;        
         }
+
+        $urlParts = explode('/', $url);
+        
+        // Cek jika ada parameter di URL
+        if (isset($_GET['id'])) {
+            $urlParts[] = $_GET['id'];
+        }
+
+        return $urlParts;
     }
+
 }

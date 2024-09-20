@@ -1,7 +1,7 @@
 <body>    
     <header>
         <div id="nav-container">
-            <img src="<?=BASEURL?>public/img/logo.png" alt="logo" width="50px">
+            <a href="<?= BASEURL ?>home/index"><img src="<?=BASEURL?>public/img/logo.png" alt="logo" width="50px" class="ms-40"></a>
             <nav id="search-bar">
                 <input class="border-radius" type="search">
             </nav>

@@ -1,6 +1,6 @@
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 - TIM 8</p>
+            <p>&copy;Tim nano nano - 2024</p>
         </div>
     </footer>
 
