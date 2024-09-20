@@ -1,6 +1,9 @@
     <footer>
         <div class="footer-content">
-            <p>&copy;Tim nano nano - 2024</p>
+            <p>About</p>
+            <p>Muhammad Nofan Ramadhan</p>
+            <p>Lutfi Arif </p>
+            <p>Arya Aji</p>
         </div>
     </footer>
 

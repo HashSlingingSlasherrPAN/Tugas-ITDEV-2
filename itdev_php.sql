@@ -50,7 +50,7 @@ CREATE TABLE `produk` (
 
 INSERT INTO `produk` (`id_produk`, `nama`, `deskripsi`, `harga`, `stok`, `merk`, `processor`, `ram`, `penyimpanan`, `jenis_penyimpanan`, `ukuran_layar`, `vga`, `berat`, `gambar`) VALUES
 (2, 'AI Gen', 'laptop yang memiliki NPU dan CPU yang kencang, cocok untuk menunjang kegiatan kuliah, kantor, dan lain lain', 10000000, 2, 'Advan', 'AMD Ryzen 7 8845HS', '16', '512', 'SSD NVMe', 14, 'AMD Radeon 780', 1.8, 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-164716685/advan_advan_laptop_ai_gen_ryzen_7_8845hs_amd_ryzen_ai_100-_srgb_16gb_512gb_windows_11_full01_oihd4aq4.jpg'),
-(3, 'Victus 16 S1002AX', 'Beyond Fast GeForce RTX™ 40 Series Laptop\r\nNVIDIA DLSS 3, Ultra-efficient Ada Lovelace Arch, and Full Ray Tracing', 16599000, 13, 'HP', 'AMD Ryzen 5 8645HS', '16', '1024', 'SSD NVMe', 16.1, 'NVIDIA Geforce RTX 4060', 2.33, 'https://images.tokopedia.net/img/cache/900/VqbcmM/2024/4/19/c854d417-e786-4a51-8b5c-6b629898bb2d.jpg'),
+(3, 'Acer Nitro v15', 'Laptop gaming dengan performa tinggi, dilengkapi prosesor Intel Core i7-13700H atau AMD Ryzen 7000 series', 20000000, 45, 'Acer', 'Intel Core i7-13700H / AMD Ryzen 7000 Series', '32GB DDR5 4800MHz', '1TB NVMe SSD', 'SSD NVMe', 15.7, 'NVIDIA Geforce RTX 4060', 2.33, 'https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/5/30/eecb54de-63c2-4330-88a3-fecabd01668e.png.webp?ect=4g'),
 (4, 'HYPE 7', 'GARANSI RESMI AXIOO 1 TAHUN', 6299000, 99, 'Axioo', 'AMD Ryzen 7 5700U', '8', '512', 'SSD NVMe', 14, 'AMD Radeon Graphics', 1.41, 'https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/7/b0d415a2-b3b7-4e7c-9e80-88646bb0fe10.png');
 
 --

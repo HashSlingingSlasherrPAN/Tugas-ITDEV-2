@@ -5,23 +5,16 @@
 
     <section id="home-article">
         <article class="ms-40">
-            <h1>Selamat Datang di Nano Store</h1>
+            <h1>Welcome to the best Marketplace that can handle big Money!</h1>
+           
             <p>
-                "Senyuman anda kebanggaan kami"
+            Stop wasting your time with half-baked Marketplace. This is the only Marketplace worth your attention—built for serious Buyer who know what they're doing. If you can’t handle it, go back to playing with toys.
             </p>
-            <p>
-                Nano Store telah berdiri sejak tahun 1995 dan telah mencetak banyak penghargaan dari seluruh dunia.
-                Kami menyediakan berbagai kebutuhan elektronik anda terutama untuk laptop. Sebagai toko yang baik, kami akan selalu melayani anda dengan senyuman 3S. 
-                Toko kami tersebar di seluruh dunia yang memiliki cabang diberbagai kota dan negara.
-            </p>
-            <p>
-                Barang yang kami sediakan 100% ORI dan memiliki harga dibawah pasar. Tiap minggu terdapat promo besar-besaran
-                Jadilah member dan dapatkan banyak diskon dan voucher tiap harinya.
-            </p>
-            <a href="<?= BASEURL ?>products/index" class="btn-red pad-2 fw-bold border-radius shadow decoration-none text-white">Pelajari lebih lanjut!</a>
+            
+            <a href="<?= BASEURL ?>products/index" class="btn-red pad-2 fw-bold border-radius shadow decoration-none text-white">Mulai belanja</a>
         </article>
         <figure>
-            <img src="<?=BASEURL?>/public/img/bg.png" alt="blackarch" class="border-radius me-40">
+            <img src="<?=BASEURL?>/public/img/cog.png" alt="COGMAN" class="border-radius me-40">
         </figure>
     </section>
     
